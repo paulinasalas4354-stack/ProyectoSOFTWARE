@@ -1,0 +1,30 @@
+class Usuario:
+    def __init__(self):
+        self.usuario_id = 0
+        self.nombre = ""
+        self.APaterno = ""
+        self.AMaterno = ""
+        self.email = ""
+        self.username = ""
+        self.password = ""
+        self.perfil = ""
+
+    # --- Getters ---
+    def get_usuario_id(self): return self.usuario_id
+    def get_nombre(self): return self.nombre
+    def get_APaterno(self): return self.APaterno
+    def get_AMaterno(self): return self.AMaterno
+    def get_email(self): return self.email
+    def get_username(self): return self.username
+    def get_password(self): return self.password
+    def get_perfil(self): return self.perfil
+
+    # --- Setters ---
+    def set_usuario_id(self, usuario_id): self.usuario_id = usuario_id
+    def set_nombre(self, nombre): self.nombre = nombre
+    def set_APaterno(self, APaterno): self.APaterno = APaterno
+    def set_AMaterno(self, AMaterno): self.AMaterno = AMaterno
+    def set_email(self, email): self.email = email
+    def set_username(self, username): self.username = username
+    def set_password(self, password): self.password = password
+    def set_perfil(self, perfil): self.perfil = perfil
